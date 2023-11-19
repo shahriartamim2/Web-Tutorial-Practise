@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .item{
+            height: 150px;
+            width: 150px;
+            background-color: aquamarine;
+        }
+        .grid-container{
+            display: grid;
+            grid-template-areas: "item1 item2 item3 item4"
+                                 "item5 item6 item7 item8"
+                                 "item9 item10 item11 item12";
+            justify-content: center;
+            grid-gap: 30px;
+        }
+        .item{
+            border: 1px solid blueviolet;
+        }
+        .item1:hover{
+            transform: rotateX(60deg);
+            transition: 2s;
+        }
+        .item2:hover{
+            transform: rotateY(60deg);
+  
+  transition: 2s;      }
+        .item3:hover{
+            transform: rotateZ(60deg);
+  
+  transition: 2s;      }
+        .item4:hover{
+            transform: rotate(180deg);
+  
+  transition: 2s;      }
+        .item5:hover{
+            transform: scaleX(1.5);
+     
+     transition: 2s;   }
+        .item6:hover{
+            transform: scaleY(1.5);
+     
+     transition: 2s;   }
+        .item7:hover{
+            transform: scaleZ(1.5);
+     
+     transition: 2s;   }
+        .item8:hover{
+            transform: scale(1.5);
+      
+      transition: 2s;  }
+        .item9:hover{
+            transform: skewX(30deg);
+    
+    transition: 2s;    }
+        .item10:hover{
+            transform: skewY(60deg);
+    
+    transition: 2s;    }
+        .item11:hover{
+            transform: skew(20deg ,40deg)
+            transition: 2s;
+        }
+        .item12:hover{
+            transform: rotateX(60deg);
+  
+  transition: 2s;      }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="item item1">item</div>
+        <div class="item item2">item</div>
+        <div class="item item3">item</div>
+        <div class="item item4">item</div>
+        <div class="item item5">item</div>
+        <div class="item item6">item</div>
+        <div class="item item7">item</div>
+        <div class="item item8">item</div>
+        <div class="item item9">item</div>
+        <div class="item item10">item</div>
+        <div class="item item11">item</div>
+        <div class="item item12">item</div>
+    </div>
+</body>
+</html>
