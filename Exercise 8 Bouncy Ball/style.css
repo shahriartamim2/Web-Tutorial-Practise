@@ -1,0 +1,47 @@
+.bg{
+    height: 80vh;
+    width: 100vw;
+    background-color: rgb(11, 130, 31);
+    position:  relative;
+}
+.ball{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50px;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+}
+.ball{
+    animation-name: bb;
+    animation-duration: 5s;
+    animation-direction: linear;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes bb {
+    0%{
+        left: 0px;
+        bottom: 0vh;
+
+    }
+    25%{
+        left: 20vw;
+        bottom: 40vh;
+    }
+    50%{
+        left: 40vw;
+        bottom:0vh;
+    }
+    75%{
+        left: 60vw;
+        bottom: 30vh;
+    }
+    100%{
+        left: 80vw;
+        bottom: 0vh;
+    }
+
+    
+}

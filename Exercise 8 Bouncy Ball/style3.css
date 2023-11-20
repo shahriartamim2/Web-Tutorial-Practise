@@ -1,0 +1,28 @@
+.bg{
+    height: 80vh;
+    width: 100vw;
+    background-color: rgb(11, 130, 31);
+    position:  relative;
+}
+.ball{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50px;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+}
+.ball{
+    animation-name: bb;
+    animation-duration: 3s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+@keyframes bb {
+    0%{transform: translateX(0vw) translateY(0vh);}
+    25%{transform: translateX(20vw) translateY(-40vh);}
+    50%{transform: translateX(40vw) translateY(0vh);}
+    75%{transform: translateX(60vw) translateY(-40vh);}
+    100%{transform: translateX(80vw) translateY(0vh);}
+}

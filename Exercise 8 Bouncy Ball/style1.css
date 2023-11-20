@@ -1,0 +1,23 @@
+.bg{
+    height: 80vh;
+    width: 100vw;
+    background-color: rgb(11, 130, 31);
+}
+.ball{
+    height: 10vh;
+    width: 10vh;
+    background-color: rgb(206, 32, 52);
+    border-radius: 50px;
+    margin: auto;
+    animation-name: bb;
+    animation-duration: 3s ;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    position: relative;
+    
+}
+@keyframes bb {
+    0%{ top: 0px; background-color: rgb(255, 255, 255);}
+    100%{ top:40vh; background-color: red}
+}
