@@ -1,0 +1,36 @@
+.bg{
+    height: 80vh;
+    width: 100vw;
+    background-color: rgb(11, 130, 31);
+    position:  relative;
+}
+.ball{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50px;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+}
+.ball{
+    animation: AnimationX 3s linear infinite, AnimationY 1s ease-out infinite alternate;
+}
+@keyframes AnimationX {
+    from{
+        left:0%;
+    }
+    to{
+        left:100%;
+    }
+    
+}
+@keyframes AnimationY {
+    from{
+        bottom:0%;
+    }
+    to{
+        bottom:80%;
+    }
+    
+}
