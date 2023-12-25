@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(assets/bg.jpg) ;
+    background-position: center center;
+    background-size: max(1200px,100vw);
+    background-repeat: no-repeat;
+    height:96vh;
+    position: relative;
+
+}
+.box{
+    height:96vh;
+    width:100%;
+    opacity: 0.54;
+    position: absolute;
+    top:0;
+    background-color: black;
+
+}
+nav{
+    display: flex;
+    margin: auto;;
+    justify-content: space-between;
+    max-width: 76vw;
+    align-items: center;
+    padding-top: 26px;
+}
+nav img{
+    width:150px;
+    position: relative;
+    z-index: 10;
+
+}
+nav button{
+    position: relative;
+    z-index: 10;
+    background-color: red;
+    /* padding-top: 20px; */
+    padding: 6px 8px;
+    width: 90px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bolder;
+}
+.hero{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: calc(100% - 111px);
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap:15px;
+    margin:20px;
+    
+}
+.hero> :first-child{
+    font-size: 45px;
+    font-weight: 1000;
+    text-align: center;
+}
+.hero> :nth-child(2){
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+
+}
+.hero> :nth-child(3){
+    font-size: 20px;
+    font-weight: 350;
+    text-align: center;
+}
+.hero>div>input{
+    background-color: transparent;
+    font-size: 1.1rem;
+    padding:10px;
+    width:50vw;
+    border-radius: 4px;
+    border: 1px solid rgb(160, 160, 160);
+}
+.hero>div>button{
+    background-color: red;
+    font-size: 1.1rem;
+    color:white;
+    padding:10px 12px;
+    border-radius: 5px;
+    border: 1px solid rgb(160, 160, 160);
+}
+.seperator{
+    height:5px;
+    width: 100vw;
+    background-color: rgb(46, 43, 43);
+    margin-bottom: 30px;
+}
+
+.sec-first {
+    display: flex;
+    max-width: 70vw;
+    justify-content: center;
+    margin:auto;
+    align-items: center;
+
+}
+.sec-first > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sec-first>div :nth-child(1){
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.sec-first>div :nth-child(2){
+    color: white;
+    font-size: 20px;
+}
+.sec-Img{
+    position: relative;
+}
+.sec-Img img{
+    width: 30vw;
+    z-index: 10;
+    
+}
+.sec-Img video{
+    position: absolute;
+    width:30vw;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 70px;
+}
+.faq{
+    
+}
+.faq-box{
+    width:80vw;
+    color: white;
+    padding: 30px;
+    background-color: rgb(66, 66, 66);
+    margin:8px auto;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+}
